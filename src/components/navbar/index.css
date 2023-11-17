@@ -1,0 +1,12 @@
+.hamburger{
+  border: none !important;
+  outline: none !important;
+  background-color: transparent;
+}
+.nav-bar-container{
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}

@@ -1,0 +1,15 @@
+.what-we-offer-main-container{
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.footer-container{
+   align-self: flex-end;
+}
+@media screen and (min-width:768px) {
+   .what-we-offer-sub-container{
+      margin-top: 80px;
+   }
+}

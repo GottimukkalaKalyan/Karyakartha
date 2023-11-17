@@ -1,0 +1,77 @@
+.main-container{
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 20px;
+   margin: 0px;
+}
+.main-heading{
+   margin: 0px;
+   font-weight: 700;
+   font-size: 30px;
+}
+.forgot{
+   font-weight: bold;
+   font-size: 15px;
+}
+.form-data{
+   border-radius: 20px;
+   padding: 40px;
+   width: 100%;
+   text-align: center;
+}
+.input-field{
+   width: 100%;
+   height: 30px;
+   font-size: 15px;
+}
+.password-para{
+   font-weight: 600;
+   color: #868585;
+}
+.reset-password-para{
+   font-weight: 600;
+   color: #868585;
+   text-align: center;
+}
+.inpt-container{
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   text-align: start;
+}
+@media screen and (min-width:768px) {
+   .form-data{
+      max-width: 400px;
+   }
+}
+.reset-container{
+   padding: 20px;
+}
+.reset-heading{
+   text-align: center !important;
+   font-weight: 500;
+   font-size: 20px;
+   width: 100%;
+}
+.please-check-mail{
+   font-size: 15px;
+   width: 100% !important;
+}
+.plese-enter-valid-mail{
+   padding: 0px;
+   color: red;
+   font-weight: 600;
+   margin-left: 0px;
+}
+.mail-and-confirmation-alert{
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   /* border: 2px solid red; */
+}

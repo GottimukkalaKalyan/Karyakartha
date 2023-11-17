@@ -1,0 +1,196 @@
+
+.Wrapper{
+    height: 100vh;
+    width: 98vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Container{
+    height: 70vh;
+    width: 80vw;
+    border: 1px solid rgba(128, 128, 128, 0.197);
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 12px 12px blue;
+    border-radius: 1vw;
+    position: relative;
+
+}
+
+.welcome{
+    line-height: 0.8vw;
+    margin-bottom: 2vw;
+
+}
+
+.Title{
+    font-size: 1.5vw;
+}
+
+.SubTitle{
+    font-size: 1vw;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.649);
+}
+
+.Left{
+    width: 50vw;
+    height: 100%;
+
+    display: flex;
+   
+    
+}
+
+form h1{
+    font-style: italic;
+    font-size: 2.2vw;
+    color: blue;
+    margin-bottom: 4vw;
+}
+
+form h4{
+    margin-left: 9vw;
+    font-weight: 300;
+}
+
+form{
+    margin-left: 2vw;
+    padding-left: 3vw;
+    padding-top: 0.8vw;
+    text-align: left;
+
+}
+
+form label{
+    font-size: 1.4vw;
+    font-weight: 700;
+}
+
+form .Email{
+    margin-left: 3vw;
+}
+
+
+form .Password{
+    margin-left: 1.75vw;
+}
+
+form input{
+    height: 7vh;
+    width: 28vw;
+    border: 1px solid rgb(150, 150, 150);
+    border-radius: 1vw ;
+    padding: 0vw 1vw;
+    font-size: 1.1vw;
+    
+    
+}
+
+input::placeholder{
+    font-size: 1.1vw;
+    color: rgba(0, 0, 255, 0.326);
+    
+}
+
+.Frgtpss{
+    margin-left: 3.5vw;
+    color: blue;
+    cursor: pointer;
+
+}
+
+.Sign_up{
+    margin-left: 1vw;
+    cursor: pointer;
+    color: blue;
+}
+
+.btn_Login{
+    height: 7vh;
+    width: 20vw;
+    border: transparent;
+    border-radius: 1vw;
+    background-color: blue;
+    color: azure;
+    font-size: 1.3vw;
+    font-weight: 500;
+    margin-left: 8.8vw;
+    margin-top: 2vw;
+}
+.btn_Login:hover{
+    background-color: rgba(45, 45, 242, 0.937);
+    cursor: pointer;
+}
+
+form h3{
+    font-size: 1vw;
+    font-weight: 300;
+}
+
+.Gap{
+    width: 5vw;
+    position: absolute;
+    left: 60%;
+    height: 40vh;
+    border-left: 1px solid rgba(0, 0, 0, 0.383);
+
+}
+
+.OR{
+    position: absolute;
+    top: 42.5%;
+    left: 57.8%;
+    padding: 1vw;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    color: rgba(0, 0, 0, 0.359);
+}
+
+.Right{
+    width: 25vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    /* border: 1px solid blue; */
+}
+
+.google-Logo{
+    height: 9vh;
+    width: 18vw;
+    background-color: white;
+    border-radius: 5vw;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    padding:  0vw 5vw;
+    gap: 0.8vw;
+    font-size: 1.3vw;
+    font-weight: 500;
+    color: blue;
+}
+
+.google-Logo:hover{
+    background-color: rgba(0, 0, 0, 0.09);
+    cursor: pointer;
+}
+
+.Cntnue{
+    margin-bottom: 2vw;
+    font-size: 1.5vw;
+}
+
+.Close{
+    font-size: 1.5vw;
+    position: absolute;
+    top: 6%;
+    left: 95%;
+    cursor: pointer;
+}

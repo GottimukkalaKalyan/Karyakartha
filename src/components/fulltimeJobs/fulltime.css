@@ -1,0 +1,58 @@
+.fulltime-job-main-container{
+   background-image: linear-gradient(#c1c7ee,#ffffff);
+}
+
+.all-jobs-container{
+   width: 100vw;
+   height: 100vh;
+   padding: 10px;
+   display: flex;
+   flex-wrap: wrap;
+   
+}
+.side-bar{
+   /* border: 2px solid red; */
+   min-height: 100%;
+   max-width: 450px;
+   min-width: 450px;
+   flex-grow: 1;
+   margin: 10px;
+
+}
+.job-detail-view{
+   min-height: 100%;
+   width: 500px;
+   flex-grow: 1;
+   padding: 20px;
+   background-color: transparent;
+
+}
+.job-detailed-card{
+   background-color: white;
+   padding: 20px;
+   border-radius: 20px;
+   min-height: 100%;
+   overflow: scroll;
+}
+.jobs-ul-container{
+   padding: 10px;
+   overflow: scroll;
+   height: 100vh;
+}
+.top-bar{
+   display: flex;
+   align-items: center;
+   widows: 100%;
+   justify-content: space-between;
+}
+.company-name-paragraph{
+   margin: 0px;
+}
+.description-para{
+   text-align: start;
+   font-weight: 400;
+}
+.lpa{
+   font-weight: bold;
+   color: #5c5c5c
+}

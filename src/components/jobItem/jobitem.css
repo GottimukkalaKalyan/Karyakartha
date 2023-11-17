@@ -1,0 +1,41 @@
+.job-item{
+   list-style-type: none;
+   padding: 0px;
+   display: flex;
+   width: 100%;
+   /* border: 2px solid blue; */
+   margin-bottom: 20px;
+   padding: 10px;
+   border-radius: 10px;
+   background-color: white;
+
+}
+.content-container{
+   width: 100%;
+   padding: 0px 10px 0px 10px;
+}
+.company-logo{
+   /* border: 1px solid green; */
+   padding: 5px;
+}
+.company-name-description{
+   display: flex;
+   width: 100%;
+   justify-content: space-between;
+}
+.job-item-button-container{
+   width: 100%;
+   background-color: none;
+   display: flex;
+   align-items: center;
+}
+.company-logo-image{
+   width: 50px;
+}
+.company-name-para{
+   padding: 0px;
+   margin: 5px 0px 5px 0px;
+}
+.apply-now-button{
+   margin-right: 20px;
+}
