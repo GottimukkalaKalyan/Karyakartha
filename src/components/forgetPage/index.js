@@ -71,7 +71,7 @@ class ForgetMailPage extends Component{
       return(
          <>
             <Header />
-            <div className="main-container">
+            <div className="main-container"> 
                <form className="form-data shadow" onSubmit={this.gotoResetPassword}>
                   <h3 className="main-heading mb-5">Forgot password</h3>
                   <p className="p-0 mb-3 password-para">Enter your resgistered mail here</p>

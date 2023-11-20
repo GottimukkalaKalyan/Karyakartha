@@ -7,20 +7,25 @@ import SignUp from "./components/signUp";
 import Login from "./components/login";
 import WhatWeOffer from "./components/whatWeOffer";
 import FulltimeJobs from "./components/fulltimeJobs";
+import { AuthProvider } from "./AuthContext";
+import Account from "./components/account/account";
 
 function App() {
   return (
     <Router>
-      <div>
-        <Routes>
-          <Route exact path="/" element={<Welcome />} />
-          <Route exact path="/home" element={<WhatWeOffer/>} />
-          <Route exact path="/login" element={<Login />} />
-          <Route exact path="/forgot" element={<ForgetMailPage />} />
-          <Route exact path="/full-time-jobs" element={<FulltimeJobs />} />
-          <Route exact path="/signup" element={<SignUp />} />
-        </Routes>
-      </div>
+      <AuthProvider>
+        <div>
+          <Routes>
+            <Route exact path="/" element={<Welcome />} />
+            <Route exact path="/home" element={<WhatWeOffer/>} />
+            <Route exact path="/login" element={<Login />} />
+            <Route exact path="/account" element={<Account />} />
+            <Route exact path="/forgot" element={<ForgetMailPage />} />
+            <Route exact path="/full-time-jobs" element={<FulltimeJobs />} />
+            <Route exact path="/signup" element={<SignUp />} />
+          </Routes>
+        </div>
+      </AuthProvider>
     </Router>
   );
 }

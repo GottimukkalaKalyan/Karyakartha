@@ -1,0 +1,402 @@
+.bg-container{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   /* background-color: lightsteelblue; */
+   background-image: linear-gradient(#c1c7ee,#ffffff);
+
+   padding-bottom: 50px;
+}
+
+.details-container{
+   display: flex;
+   flex-direction: column;
+   border: 1px solid blue;
+   background-color: transparent;
+   border-radius: 10px;
+}
+
+.profile-edit-container{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   padding: 20px;
+   /* border: 2px solid red; */
+}
+.profile-icon{
+   margin-top: -60px;
+   background-color: lightgrey;
+   border-radius: 40px;
+   height: 40px;
+   width: 40px;
+   padding: 20px;
+   margin-left: 50px;
+}
+
+.edit-button{
+   background-color: transparent;
+   border: none;
+}
+
+.edit-icon{
+   height: 30px;
+   width: 30px;
+}
+
+.save-button{
+   background-color: transparent;
+   border: none;
+}
+
+.cancel-button{
+   background-color: transparent;
+   border: none;
+}
+
+.id{
+   margin-top: -15px;
+}
+
+.name-resume-container{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+   margin-left: 50px;
+   margin-top: -40px;
+}
+
+.editable-name{
+   background-color: transparent;
+   border: none;
+   font-size: 20px;
+   margin-bottom: 5px;
+   margin-left: -5px;
+   font-weight: bold;
+}
+
+.editable-container{
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+   align-items: center;
+   margin-top: -10px;
+}
+
+.editable-id{
+   background-color: transparent;
+   border: none;
+   font-size: 16px;
+   margin-bottom: 14px;
+   margin-left: 0px;
+   margin-top: 15px;
+}
+
+.editable-experience{
+   background-color: transparent;
+   border: none;
+   font-size: 16px;
+   margin-bottom: 16px;
+   margin-left: 0px;
+   margin-top: 21px;
+}
+
+.editable-graduate-icon{
+   margin-bottom: 28px;
+   height: 30px;
+   width: 30px;
+}
+
+.education-editable-container{
+   margin-top: -20px;
+}
+
+.editable-education-details{
+   border: none;
+   font-size: 10px;
+   margin-bottom: 20px;
+   margin-left: 5px;
+}
+
+
+.editable-email{
+   background-color: transparent;
+   border: none;
+   font-size: 16px;
+   margin-bottom: 14px;
+   margin-left: 0px;
+   margin-top: 15px;
+   width: 100%;
+}
+
+.name-details-container{
+  /* background-color: gainsboro; */
+   margin-top: 20px;
+}
+
+.conts{
+   margin: 20px;
+}
+
+.resume-details-container{
+   /* background-color: azure; */
+}
+
+
+
+.p{
+   font-size: 10px;
+   margin-right: 10px;
+}
+
+.h{
+   margin-top: 2px;
+}
+
+.experience-icon{
+   height: 25px;
+   width: 25px;
+   padding-right: 5px;
+   margin-top: 2px;
+   color: blue;
+   font-weight: 1000;
+}
+
+.call-icon{
+   height: 25px;
+   width: 25px;
+   padding-right: 5px;
+   margin-top: 2px;
+   color: blue;
+}
+
+.email-icon{
+   height: 25px;
+   width: 25px;
+   padding-right: 5px;
+   margin-top: 2px;
+   color: blue;
+}
+
+.validity-input-container{
+   display: flex;
+   flex-direction: row;
+   margin-top: -10px;
+}
+
+.time-left{
+   margin-top: 2px;
+   color: gray;
+   font-weight: bold;
+}
+
+.subscribe-button{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   background-color: blue;
+   padding: 5px;
+   color: white;
+   border: none;
+   border-radius: 5px;
+   font-size: 12px;
+}
+
+.bell-icon{
+   margin-left: 5px;
+   background-color: blue;
+}
+.validity-box{
+   height: 37px;
+   border: 1px solid blue;
+   width: 70px;
+   background-color: blue;
+   border-top-left-radius: 5px;
+   border-bottom-left-radius: 5px;
+}
+
+.validity-input{
+   height: 35px;
+   border: 1px solid blue;
+   border-top-right-radius: 5px;
+   border-bottom-right-radius: 5px;
+}
+
+.container{
+   background-color: white;
+   display: flex;
+   flex-direction: column;
+   margin: 20px;
+   padding-left: 10px;
+   border-radius: 7px;
+   border: 1px solid lightgray;
+   width: 75%;
+  /* align-items: stretch; */
+}
+.subscribe-des{
+   margin-top: 0px;
+   font-size: 10px;
+}
+
+.rupees{
+   color: blue;
+}
+
+.rupees-icon{
+   margin-top: 3px;
+}
+
+.v-line{
+   border: 1px black solid;
+   height: 400px;
+   border-top: none;
+   border-right: none;
+   border-bottom: none;
+   margin-left: 80px;
+}
+
+.d-container{
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+   align-items: center;
+   margin-top: -10px;
+}
+
+.resume-update-btn-container{
+   display: flex;
+   flex-direction: row;
+}
+
+.file-input{
+   height: 29px;
+   border: 1px solid lightgray;
+}
+
+.update-button{
+   height: 30px;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   font-size: 10px;
+   border: none;
+   background-color: blue;
+   color: white;
+   width: 70px;
+   border-radius: 5px;
+}
+
+.download-button{
+   background-color: transparent;
+   border: none;
+   color: blue;
+   font-size: 10px;
+   margin-top: -5px;
+}
+
+.delete-button{
+   background-color: transparent;
+   border: none;
+   color: blue;
+   font-size: 10px;
+   margin-top: -5px;
+   margin-bottom: 5px;
+}
+
+.education-icon-details-container{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   margin-top: -30px;
+   width: 60%;
+}
+
+.resume-update-btn-container{
+   margin-top: -15px;
+}
+
+.skills-des{
+   margin-top: -10px;
+}
+
+.graduate-icon{
+   height: 40px;
+   width: 40px;
+   margin: 5px;
+   margin-bottom: 20px;
+   margin-top: 5px;
+}
+
+.graduation-des{
+   margin-top: -18px;
+}
+
+.yop-details-container{
+   margin-top: 10px;
+}
+
+.yop{
+   margin-top: -25px;
+   font-size: 10px;
+   color: gray;
+   margin-left: 33px;
+}
+
+.editable-yop{
+   border: none;
+   margin-top: 0px;
+   font-size: 10px;
+   color: gray;
+   margin-left: 35px;
+   margin-bottom: 5px;
+}
+
+.personal-details-heading-edit-container{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+.personal-details-edit-icon{
+   padding: 7px;
+}
+
+.personal-container{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+  /* background-color: aquamarine; */
+   margin: -10px;
+   margin-left: 0px;
+}
+
+.personal-details-edit-button{
+   background-color: transparent;
+   border: none;
+}
+
+.personal-details-save-button{
+   background-color: transparent;
+   border: none;
+}
+.personal-details-cancel-button{
+   background-color: transparent;
+   border: none;
+}
+
+.editable-p{
+   background-color: transparent;
+   border: none;
+   font-size: 10px;
+   color: gray;
+   height: 20px;
+   margin-top: 7px;
+}
+
+.details{
+   width: 30%;
+   margin-top: -10px;
+   margin-bottom: 10px;
+}
