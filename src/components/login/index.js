@@ -22,15 +22,22 @@ const Login = () => {
     e.preventDefault();
     if (email !== "" && pass !== ""){
       login(true)
-      navigate("/home")
-      // const apiUrl = "https://karyakartha1.onrender.com/login"
-      // const userData = {email:email,password:pass}
-      // const options = {
-      //   method:"POST",
-      //   body:JSON.stringify(userData)
-      // }
-      // const result = await fetch(apiUrl,options)
-      // console.log(result)
+      const apiUrl = "https://karyakartha-t18z.onrender.com/login"
+      const userData = {email:email,password:pass}
+      const options = {
+        method:"POST",
+        headers:{
+          "Content-Type":"application/json"
+        },
+        body:JSON.stringify(userData)
+      }
+      const result = await fetch(apiUrl,options)
+      console.log(result)
+      if (result.ok){
+        navigate("/")
+      }else{
+        alert("Please provide valid Credentials")
+      }
     }
   }
 

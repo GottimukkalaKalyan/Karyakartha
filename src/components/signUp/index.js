@@ -1,6 +1,8 @@
 import { useNavigate } from 'react-router-dom'
 import {useState} from "react"
 
+import {v4 as uuid} from "uuid"
+
 import {FcGoogle} from 'react-icons/fc' 
 import 'reactjs-popup/dist/index.css'
 import './index.css'
@@ -35,24 +37,28 @@ const RenderDesktopView = () => {
       event.preventDefault()
       if (email !== "" && MobileNumber !== "" && Password !== "" && fullName !== ""){
         console.log("Started")
-        // setLoading(true)
-        // const apiUrl = "https://karyakartha1.onrender.com/signup"
-        // const userData = {
-        //     username:fullName,
-        //     password:Password,
-        //     mobileNumber:MobileNumber,
-        //     email:email
-        // }
-        // const options = {
-        //     method:"POST",
-        //     body: JSON.stringify(userData)
-        // }
-        // const result = await fetch(apiUrl,options)
-        // console.log(result)
-        // const resutData = await result.json()
-        // console.log(resutData)
-        // setLoading(false)
-        alert("Signup Successfull. Please Login... :)")
+        setLoading(true)
+        const apiUrl = "https://karyakartha-t18z.onrender.com/register"
+        const userData = {
+            UserName:fullName,
+            Password:Password,
+            MobileNumber:MobileNumber,
+            email:email,
+            uid:uuid()
+        }
+        const options = {
+            method:"POST",
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(userData)
+        }
+        const result = await fetch(apiUrl,options)
+        console.log(result)
+        const resutData = await result.json()
+        console.log(resutData)
+        setLoading(false)
+        // alert("Signup Successfull. Please Login... :)")
         Navigate("/login")
       }else{
         alert("Please fill all mentioned Details")
