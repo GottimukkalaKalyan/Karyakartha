@@ -69,7 +69,7 @@ const Login = () => {
               <h1 className='welcome-subtitle'>Glad to see you again, Login to your account below</h1>
           </div>
           <div className='login-container'>
-            <h1 className='login-heading'>Login</h1>
+            <h1 className='login-heading'>Login </h1>
             <div className='google-and-form-cotnainer'>
               <div className='left-side-container'>
                 <div className='input-container m-0'>
@@ -81,8 +81,8 @@ const Login = () => {
                   <label htmlFor='password' className='label-name mb-2'>Password</label>
                   <input type='password' id='password' className='form-control input-text' placeholder='Enter your password here'/>
                   <div className='note-and-forgot-container'>
-                    <p className='note d-none d-md-block'> Minimum 6 characters required</p>
-                    <p className='forgot-para' onClick={forgotPassword}>forgot password?</p>
+                    <p className='note d-none d-md-block'>Minimum 6 characters required</p>
+                    <p className='forgot-para' onClick={forgotPassword}>forgot password ?</p>
                   </div>
                 </div>
                 <div className='button-container'>
