@@ -68,7 +68,7 @@ const Login = () => {
               <h1 className='welcome-heading'>  Welcome back </h1>
               <h1 className='welcome-subtitle'>Glad to see you again, Login to your account below</h1>
           </div>
-          <div className='login-container shadow'>
+          <div className='login-container'>
             <h1 className='login-heading'>Login</h1>
             <div className='google-and-form-cotnainer'>
               <div className='left-side-container'>
