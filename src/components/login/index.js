@@ -109,9 +109,9 @@ const Login = () => {
                       <span>Sign up with Google</span>
                     </div>
                   </div>
-                  <p className='mt-3'> Don’t have an account? <Link to="/signup"><b>Sign up here</b></Link> </p>
+                  <p className='mt-3'> Don't have an account? <Link to="/signup"><b>Sign up here</b></Link> </p>
                 </div>
-              </div>
+              </div> 
             </div>
           </div>
       </div>
