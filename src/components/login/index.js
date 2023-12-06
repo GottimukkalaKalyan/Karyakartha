@@ -54,11 +54,9 @@ const Login = () => {
     navigate("/signup")
   }
 
-  
-
-  const forgotPassword = () => {
-    alert("This is not linked to API We're working on it : )")
-  }
+  // const forgotPassword = () => {
+  //   alert("This is not linked to API We're working on it : )")
+  // }
   
   return (
     <>
@@ -68,26 +66,26 @@ const Login = () => {
               <h1 className='welcome-heading'>  Welcome back </h1>
               <h1 className='welcome-subtitle'>Glad to see you again, Login to your account below</h1>
           </div>
-          <div className='login-container'>
+          <form className='login-container' onSubmit={handleSubmit}>
             <h1 className='login-heading'>Login </h1>
             <div className='google-and-form-cotnainer'>
               <div className='left-side-container'>
                 <div className='input-container m-0'>
-                  <label htmlFor='username' className='label-name mb-2'>Username</label>
-                  <input type='text' id='username' className='form-control input-text' placeholder='Enter your your Email ID'/>
+                  <label htmlFor='email' className='label-name mb-2'>Email ID</label>
+                  <input type='email' id='email' className='form-control input-text' placeholder='Enter your your Email ID' onChange={changeEmail}/>
                   <p className='note d-none d-md-block'> We'll send you job notifications </p>
                 </div>
                 <div className='input-container m-0'>
                   <label htmlFor='password' className='label-name mb-2'>Password</label>
-                  <input type='password' id='password' className='form-control input-text' placeholder='Enter your password here'/>
+                  <input type='password' id='password' className='form-control input-text' placeholder='Enter your password here' onChange={changePassword}/>
                   <div className='note-and-forgot-container'>
                     <p className='note d-none d-md-block'>Minimum 6 characters required</p>
-                    <p className='forgot-para' onClick={forgotPassword}>forgot password ?</p>
+                    <p className='forgot-para' onClick={navigateToForgot}>forgot password ?</p>
                   </div>
                 </div>
                 <div className='button-container'>
-                  <button type='button' className='btn btn-primary login-button'>Login</button>
-                  <button type='button' className='btn btn-secondary login-button'>Sign Up</button>
+                  <button type='submit' className='btn btn-primary login-button' >Login</button>
+                  <button type='button' className='btn btn-secondary login-button' onClick={goToSignUp}>Sign Up</button>
                 </div>
               </div>
               <div className='right-side-container'>
@@ -113,7 +111,7 @@ const Login = () => {
                 </div>
               </div> 
             </div>
-          </div>
+          </form>
       </div>
     </>
   )
